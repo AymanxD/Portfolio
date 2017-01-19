@@ -30,12 +30,17 @@ header {
 }
 
 .centerbox {
-  text-align: center;
   background-color:rgba(0, 0, 0, 0.90);
   padding: 20px;
-  width: 400px;
   margin-bottom: 300px;
   margin-top: -500px;
+  text-align: center;
+  width: 500px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
 }
 
 .name {
@@ -51,7 +56,7 @@ header {
 
 .social-links a {
   margin: 22px;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .title {
@@ -88,12 +93,11 @@ main{
 #Me {
   width: 280px;
   border-radius: 40px;
-  text-align: center;
 }
 
 .description {
   color:black;
-  font-size: 27px;
+  font-size: 24px;
 }
 
 h3 {
@@ -118,22 +122,20 @@ h3 {
 }
 
   @media (max-width:600px) {
-    body {
-      width: 100%;
-    }
     li {
-      font-size: 14px;
-    }
-    .Learned2 {
-      margin-left: 60px;
+      font-size: 15px;
     }
     h3 {
       font-size: 25px;
     }
     .Learned {
       font-size: 20px;
+      margin-left: 80x;
     }
     .email {
       font-size: 30px;
+    }
+    #Me {
+      margin-left: 80px;
     }
   }
