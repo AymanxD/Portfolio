@@ -10,9 +10,15 @@ li{
   font-size: 16px
 }
 
+#Ayman {
+  color: white;
+  font-size: 20px;
+  float: left;
+  padding: 8px;
+}
 a{
   color:orange;
-  padding: 22px;
+  padding: 10px;
 }
 
 a:hover{
@@ -22,7 +28,7 @@ a:hover{
 }
 
 header {
-  background: url("http://www.cornbreaddigitalmarketing.com/wp-content/uploads/2013/03/thadeus-mokup-macbook.jpg") fixed;
+  background: url("http://res.cloudinary.com/aymanxd/image/upload/v1485056457/kzvmepyfijs-dustin-lee_cwx2el.jpg") fixed;
   position: relative;
   z-index: -1;
   min-height: 800px;
@@ -65,6 +71,8 @@ header {
   padding:20px;
   font-size: 40px;
   color:orange;
+  text-transform: uppercase;
+  font-weight:bold;
 }
 
 footer{
@@ -108,6 +116,18 @@ h3 {
   color:black;
 }
 
+progress {
+  width: 500px;
+ font-size: .6em;
+ line-height: 1.5em;
+ text-indent: .5em;
+ height: 1.8em;
+ background: #fff;
+}
+
+progress::-webkit-progress-bar { background: #fff; }
+progress::-webkit-progress-value { background: #FABC77; }
+
 #Portfolio {
   margin-top: 28px;
   margin-bottom: 40px;
@@ -128,10 +148,10 @@ h3 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:inherit;
+    background-color:rgba(0, 0, 0, 0.75);
     min-width: 195px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-top: 20px;
+    margin-top: 8.5px;
 }
 
 .dropdown-content a {
