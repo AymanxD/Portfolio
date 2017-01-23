@@ -185,6 +185,9 @@ progress::-webkit-progress-value { background: #FABC77; }
       font-size: 20px;
       margin-left: 60px;
     }
+    progress{
+      width:85%;
+    }
   }
 
   @media (max-width:600px) {
@@ -214,10 +217,6 @@ progress::-webkit-progress-value { background: #FABC77; }
     .Learned {
       font-size: 20px;
       margin-left: 60px;
-    }
-    progress{
-      width:300px;
-      float: right;
     }
     a{
       padding: 10px;
