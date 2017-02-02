@@ -143,6 +143,14 @@ progress::-webkit-progress-value { background: #FABC77; }
   font-weight: bold;
 }
 
+.Project {
+  border: 1px solid gray;
+}
+
+.Bottom {
+  text-align: center;
+}
+
 /* Drop down Portfolio  */
 .dropdown-content {
     display: none;
