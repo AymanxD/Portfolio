@@ -147,10 +147,6 @@ progress::-webkit-progress-value { background: #FABC77; }
   border: 1px solid gray;
 }
 
-.Bottom {
-  text-align: center;
-}
-
 /* Drop down Portfolio  */
 .dropdown-content {
     display: none;
@@ -184,17 +180,18 @@ progress::-webkit-progress-value { background: #FABC77; }
 
   @media (max-width:1000px) {
     #Me {
-      margin-left: 240px;
+      margin-left: 280px;
+      width: 200px;
     }
     .description {
       font-size: 20px;
     }
     .Learned {
       font-size: 20px;
-      margin-left: 60px;
+      margin-left: 200px;
     }
     progress{
-      width:85%;
+      width:200px;
     }
   }
 
@@ -218,6 +215,7 @@ progress::-webkit-progress-value { background: #FABC77; }
     #Me {
       margin-left: 40px;
       margin-bottom: 20px;
+      width: 200px;
     }
     .description {
       font-size: 20px;
